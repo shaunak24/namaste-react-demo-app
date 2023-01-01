@@ -5,3 +5,4 @@ Types of components -
 2. Class Based components
 
 - For any component, name starts with uppercase
+- Component Composition - using 1 one component inside other, haha!
