@@ -9,10 +9,19 @@ import ReactDOM from 'react-dom/client';
 // );
 
 // JSX
+const nums = [1, 2, 3];
+
 const heading = (
-  <h1 id="title" key="h1">
-    Hello from Shaunak
-  </h1>
+  <div id="container">
+    <h1 id="title" key="h1">
+      Hello from Shaunak
+    </h1>
+    <ul>
+      {nums.map((num) => (
+        <li key={`key-${num}`}>Element {num}</li>
+      ))}
+    </ul>
+  </div>
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
