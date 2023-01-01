@@ -1,0 +1,26 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "Namaste React Course Demo App",
+  "main": "index.html",
+  "scripts": {
+    "test": "Jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunak24/namaste-react-demo-app.git"
+  },
+  "keywords": [
+    "#namaste-react"
+  ],
+  "author": "Shaunak Thakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunak24/namaste-react-demo-app/issues"
+  },
+  "homepage": "https://github.com/shaunak24/namaste-react-demo-app#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
