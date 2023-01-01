@@ -1,0 +1,7 @@
+Everything is a component in React!
+
+Types of components -
+1. Functional components (New way)
+2. Class Based components
+
+- For any component, name starts with uppercase
