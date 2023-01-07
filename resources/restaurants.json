@@ -1,0 +1,1865 @@
+{
+  "cardType": "seeAllRestaurants",
+  "layoutAlignmentType": "VERTICAL",
+  "type": "seeAllRestaurants",
+  "data": [
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "513825",
+        "name": "Meals 911",
+        "uuid": "26df1022-bc25-488f-83bc-dfec030000ec",
+        "city": "6",
+        "area": "Magarpatta",
+        "totalRatingsString": "500+ ratings",
+        "cloudinaryImageId": "wcfhkh2dsb2nefh6vlme",
+        "cuisines": ["Thalis"],
+        "tags": [],
+        "costForTwo": 19900,
+        "costForTwoString": "₹199 FOR TWO",
+        "deliveryTime": 25,
+        "minDeliveryTime": 25,
+        "maxDeliveryTime": 25,
+        "slaString": "25 MINS",
+        "lastMileTravel": 3,
+        "slugs": {
+          "restaurant": "meals-911-magarpatta-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Sr.no51/1A, Eat-A-Lot, Sai Colony,  Magarpatta road, Mundhwa, Dhole Patil Road, Pune PMC,  Maharashtra - 411036",
+        "locality": "Sai Colony",
+        "parentId": 307191,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "ribbon": [
+          {
+            "type": "PROMOTED"
+          }
+        ],
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "cid=5682762~p=1~eid=00000185-8b82-e026-0fa4-82bf00bb0137",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "513825",
+          "deliveryTime": 25,
+          "minDeliveryTime": 25,
+          "maxDeliveryTime": 25,
+          "lastMileTravel": 3,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": true,
+        "avgRating": "4.1",
+        "totalRatings": 500,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "658847",
+        "name": "Rolls Mania",
+        "uuid": "51054c5c-059c-4be8-a815-d85d8a211dd2",
+        "city": "6",
+        "area": "Mundhwa",
+        "totalRatingsString": "Too Few Ratings",
+        "cloudinaryImageId": "5d0d99d04dd38bda8c7f7681fad838f7",
+        "cuisines": ["Snacks", "Desserts"],
+        "tags": [],
+        "costForTwo": 20000,
+        "costForTwoString": "₹200 FOR TWO",
+        "deliveryTime": 19,
+        "minDeliveryTime": 19,
+        "maxDeliveryTime": 19,
+        "slaString": "19 MINS",
+        "lastMileTravel": 0.800000011920929,
+        "slugs": {
+          "restaurant": "rolls-mania-magarpatta-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Shop No. 27, Mantra Insignia,Renuka Mata Mandir Road,Keshav Nagar, Mundhwa, Pune - 411036",
+        "locality": "Keshav Nagar",
+        "parentId": 171118,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "ribbon": [
+          {
+            "type": "NEW"
+          }
+        ],
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "0.8 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "658847",
+          "deliveryTime": 19,
+          "minDeliveryTime": 19,
+          "maxDeliveryTime": 19,
+          "lastMileTravel": 0.800000011920929,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "--",
+        "totalRatings": 0,
+        "new": true
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "468382",
+        "name": "Cafe Durga",
+        "uuid": "8df828d0-698b-4d25-9a1f-252faae6240b",
+        "city": "6",
+        "area": "Keshvnagar",
+        "totalRatingsString": "20+ ratings",
+        "cloudinaryImageId": "v6vr2xjbjp969r2c3pyd",
+        "cuisines": ["American", "Street Food", "Beverages"],
+        "tags": [],
+        "costForTwo": 30000,
+        "costForTwoString": "₹300 FOR TWO",
+        "deliveryTime": 25,
+        "minDeliveryTime": 25,
+        "maxDeliveryTime": 25,
+        "slaString": "25 MINS",
+        "lastMileTravel": 0.800000011920929,
+        "slugs": {
+          "restaurant": "cafe-durga-magarpatta-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Shop no 38, Sr no 9-14, plot no 54&55 Mantra insignia, near renuka mata  mandir, keshvnagar, mundhwa, HaveliNorth of Mutha River, Pune PMC & Rural, Maharashtra - 411036",
+        "locality": "Keshvnagar",
+        "parentId": 184,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "0.8 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "468382",
+          "deliveryTime": 25,
+          "minDeliveryTime": 25,
+          "maxDeliveryTime": 25,
+          "lastMileTravel": 0.800000011920929,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.2",
+        "totalRatings": 20,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "488766",
+        "name": "Godavari Ruchullu",
+        "uuid": "1bd7d719-82e0-45a0-8ba5-6f34c144e606",
+        "city": "6",
+        "area": "Magarpatta",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "sgoit7ufaj0uqvtv10xy",
+        "cuisines": ["Andhra"],
+        "tags": [],
+        "costForTwo": 25000,
+        "costForTwoString": "₹250 FOR TWO",
+        "deliveryTime": 24,
+        "minDeliveryTime": 24,
+        "maxDeliveryTime": 24,
+        "slaString": "24 MINS",
+        "lastMileTravel": 3,
+        "slugs": {
+          "restaurant": "godavari-ruchullu-magarpatta-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Kitchen no.4 Ground Floor Sr.No.51/1 Nr.Railway Over Bridge Mundhwa , PUNE PCMC ward No-002, Pune, Maharashtra, 411036",
+        "locality": "Nrrailway Over Bridge",
+        "parentId": 12968,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "ribbon": [
+          {
+            "type": "PROMOTED"
+          }
+        ],
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "cid=5626883~p=4~eid=00000185-8b82-e026-0fa4-82c000bb044d",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "488766",
+          "deliveryTime": 24,
+          "minDeliveryTime": 24,
+          "maxDeliveryTime": 24,
+          "lastMileTravel": 3,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": true,
+        "avgRating": "3.9",
+        "totalRatings": 100,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "445304",
+        "name": "SHREE VENKATESHWARA HOTEL",
+        "uuid": "3d0a967c-67b8-4226-b9e8-0b0de61a607b",
+        "city": "6",
+        "area": "Magarpatta",
+        "totalRatingsString": "20+ ratings",
+        "cloudinaryImageId": "csb4ytrsq7fofy4qhatt",
+        "cuisines": ["South Indian", "Beverages"],
+        "tags": [],
+        "costForTwo": 30000,
+        "costForTwoString": "₹300 FOR TWO",
+        "deliveryTime": 27,
+        "minDeliveryTime": 27,
+        "maxDeliveryTime": 27,
+        "slaString": "27 MINS",
+        "lastMileTravel": 0.699999988079071,
+        "slugs": {
+          "restaurant": "shree-venkateshwara-hotel-magarpatta-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Sr No 36/2A,Shop No2, Konark Business Centre,Keshav Nagar,Mundhwa,Pune 411036",
+        "locality": "Konark Business Centre",
+        "parentId": 185862,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "0.6 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "445304",
+          "deliveryTime": 27,
+          "minDeliveryTime": 27,
+          "maxDeliveryTime": 27,
+          "lastMileTravel": 0.699999988079071,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.3",
+        "totalRatings": 20,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "191364",
+        "name": "The Biryani Life",
+        "uuid": "ac9895aa-380f-4a88-b65b-44be8b537807",
+        "city": "6",
+        "area": "Mundhwa",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "pmcnmgyalliwpkxc5qnh",
+        "cuisines": [
+          "Biryani",
+          "Hyderabadi",
+          "Lucknowi",
+          "North Indian",
+          "Mughlai",
+          "Desserts"
+        ],
+        "tags": [],
+        "costForTwo": 25000,
+        "costForTwoString": "₹250 FOR TWO",
+        "deliveryTime": 22,
+        "minDeliveryTime": 22,
+        "maxDeliveryTime": 22,
+        "slaString": "22 MINS",
+        "lastMileTravel": 1.399999976158142,
+        "slugs": {
+          "restaurant": "the-biryani-life-keshav-nagar-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Keshav Nagar Rd Shop 2, 3 & 5, Keshav Capital Society, near Sai Nagari Society, opposite Janseva Bank Bhaji Mandi, Keshav Nagar, Mundhwa, Pune, Maharashtra 411036",
+        "locality": "Keshav Nagar",
+        "parentId": 8496,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "1.3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "191364",
+          "deliveryTime": 22,
+          "minDeliveryTime": 22,
+          "maxDeliveryTime": 22,
+          "lastMileTravel": 1.399999976158142,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.1",
+        "totalRatings": 100,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "152231",
+        "name": "Kolkata Darbar",
+        "uuid": "feb92877-be2b-4381-b21c-c70165c96cc4",
+        "city": "6",
+        "area": "Wadgaon Sheri",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "dlhpvuxcp7scpcjvjd72",
+        "cuisines": [
+          "Biryani",
+          "Bengali",
+          "Mughlai",
+          "North Indian",
+          "Beverages"
+        ],
+        "tags": [],
+        "costForTwo": 35000,
+        "costForTwoString": "₹350 FOR TWO",
+        "deliveryTime": 26,
+        "minDeliveryTime": 26,
+        "maxDeliveryTime": 26,
+        "slaString": "26 MINS",
+        "lastMileTravel": 3.9000000953674316,
+        "slugs": {
+          "restaurant": "kolkata-darbar-wadgaon-sheri-kharadi",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "L/ B M G Market, Old Mundhwa Rd, Beside (Bollywood Theatre), Mahadev Nagar, Wadgaon Sheri, Pune, Maharashtra-411014",
+        "locality": "Beside Bollywood Theatre, M G Market",
+        "parentId": 119923,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "40% off",
+          "shortDescriptionList": [
+            {
+              "meta": "40% off on all orders",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            },
+            {
+              "meta": "FREE DELIVERY",
+              "discountType": "FREE_DELIVERY",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "40% off on all orders",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            },
+            {
+              "meta": "FREE DELIVERY",
+              "discountType": "FREE_DELIVERY",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "40% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Free Delivery",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "40% off on all orders",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            },
+            {
+              "meta": "FREE DELIVERY",
+              "discountType": "FREE_DELIVERY",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "ribbon": [
+          {
+            "type": "PROMOTED"
+          }
+        ],
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "cid=5639441~p=7~eid=00000185-8b82-e026-0fa4-82c100bb0731",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "3.9 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "152231",
+          "deliveryTime": 26,
+          "minDeliveryTime": 26,
+          "maxDeliveryTime": 26,
+          "lastMileTravel": 3.9000000953674316,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": true,
+        "avgRating": "3.8",
+        "totalRatings": 100,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "473827",
+        "name": "BOX8 - Desi Meals",
+        "uuid": "afcc1442-8700-4c80-993b-ad6c7d54eec1",
+        "city": "6",
+        "area": "Magarpatta",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "qycqdhggleuvuxdt95oo",
+        "cuisines": ["North Indian", "Biryani", "Thalis", "Home Food"],
+        "tags": [],
+        "costForTwo": 25000,
+        "costForTwoString": "₹250 FOR TWO",
+        "deliveryTime": 20,
+        "minDeliveryTime": 20,
+        "maxDeliveryTime": 20,
+        "slaString": "20 MINS",
+        "lastMileTravel": 1.399999976158142,
+        "slugs": {
+          "restaurant": "box8-desi-meals-keshav-capital-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "S.No.5/39, office No.101&102, Keshav Capital, Keshavnagar, Mundhwa, Pune-411036",
+        "locality": "Keshav Capital",
+        "parentId": 10655,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "Flat ₹125 off",
+          "shortDescriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "₹125 OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "1.3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "473827",
+          "deliveryTime": 20,
+          "minDeliveryTime": 20,
+          "maxDeliveryTime": 20,
+          "lastMileTravel": 1.399999976158142,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.3",
+        "totalRatings": 100,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "170433",
+        "name": "Faasos - Wraps & Rolls",
+        "uuid": "d36c6cae-e2a3-4878-b7d1-256ce0f10f6e",
+        "city": "6",
+        "area": "Mundhwa",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "aagjycjffqvorkur053q",
+        "cuisines": [
+          "Fast Food",
+          "Snacks",
+          "North Indian",
+          "Indian",
+          "Healthy Food",
+          "Desserts",
+          "Beverages"
+        ],
+        "tags": [],
+        "costForTwo": 20000,
+        "costForTwoString": "₹200 FOR TWO",
+        "deliveryTime": 22,
+        "minDeliveryTime": 22,
+        "maxDeliveryTime": 22,
+        "slaString": "22 MINS",
+        "lastMileTravel": 1.399999976158142,
+        "slugs": {
+          "restaurant": "faasos-keshav-nagar-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Keshav Nagar Rd Shop 2, 3 & 5, Keshav Capital Society, near Sai Nagari Society, opposite Janseva Bank Bhaji Mandi, Keshav Nagar, Mundhwa, Pune, Maharashtra 411036",
+        "locality": "Keshav Nagar",
+        "parentId": 21809,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "Flat ₹125 off",
+          "shortDescriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "₹125 OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "1.3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "170433",
+          "deliveryTime": 22,
+          "minDeliveryTime": 22,
+          "maxDeliveryTime": 22,
+          "lastMileTravel": 1.399999976158142,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.1",
+        "totalRatings": 100,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "600557",
+        "name": "Oh! Calcutta",
+        "uuid": "a3f9d4e3-cae1-49f5-aaa9-ce7c440a1cd2",
+        "city": "6",
+        "area": "CITY TOWER",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "mkk8ephm6z5peqqgoow5",
+        "cuisines": ["Bengali"],
+        "tags": [],
+        "costForTwo": 80000,
+        "costForTwoString": "₹800 FOR TWO",
+        "deliveryTime": 51,
+        "minDeliveryTime": 51,
+        "maxDeliveryTime": 51,
+        "slaString": "51 MINS",
+        "lastMileTravel": 8.5,
+        "slugs": {
+          "restaurant": "oh-calcutta-dp-road-koregaon-park",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "GROUND FLOOR, UNIT NO. 1 TO 9, CITY TOWER, BOAT CLUB, DHOLE PATIL ROAD, PUNE - 411001 ,Dhole Patil Road, Pune, Maharashtra-411001",
+        "locality": "DP Road",
+        "parentId": 672,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "Flat ₹125 off",
+          "shortDescriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹249",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹249 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "₹125 OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹249 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "ribbon": [
+          {
+            "type": "PROMOTED"
+          }
+        ],
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "cid=5685361~p=10~eid=00000185-8b82-e026-0fa4-82c200bb0a58",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "8.5 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "600557",
+          "deliveryTime": 51,
+          "minDeliveryTime": 51,
+          "maxDeliveryTime": 51,
+          "lastMileTravel": 8.5,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": true,
+        "avgRating": "4.3",
+        "totalRatings": 100,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "170439",
+        "name": "Oven Story Pizza",
+        "uuid": "0b5f3e8b-8edd-41e7-a7dd-dd6e029ad8a6",
+        "city": "6",
+        "area": "Mundhwa",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "ojlie6e9sfks6z58seoc",
+        "cuisines": ["Pizzas"],
+        "tags": [],
+        "costForTwo": 60000,
+        "costForTwoString": "₹600 FOR TWO",
+        "deliveryTime": 31,
+        "minDeliveryTime": 31,
+        "maxDeliveryTime": 31,
+        "slaString": "31 MINS",
+        "lastMileTravel": 1.399999976158142,
+        "slugs": {
+          "restaurant": "ovenstory-pizza-keshav-nagar-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Keshav Nagar Rd Shop 2, 3 & 5, Keshav Capital Society, near Sai Nagari Society, opposite Janseva Bank Bhaji Mandi, Keshav Nagar, Mundhwa, Pune, Maharashtra 411036",
+        "locality": "Keshav Nagar",
+        "parentId": 3534,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "Flat ₹125 off",
+          "shortDescriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "₹125 OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "1.3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "170439",
+          "deliveryTime": 31,
+          "minDeliveryTime": 31,
+          "maxDeliveryTime": 31,
+          "lastMileTravel": 1.399999976158142,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.0",
+        "totalRatings": 100,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "147913",
+        "name": "Hotel Tuljabhavani",
+        "uuid": "fd55deb5-2482-4e9d-bfd6-c183564b79db",
+        "city": "6",
+        "area": "Mundhwa",
+        "totalRatingsString": "20+ ratings",
+        "cloudinaryImageId": "fsp9pzdpmw3ptnggctck",
+        "cuisines": [
+          "Thalis",
+          "Maharashtrian",
+          "North Indian",
+          "Chinese",
+          "Biryani",
+          "Punjabi"
+        ],
+        "tags": [],
+        "costForTwo": 25000,
+        "costForTwoString": "₹250 FOR TWO",
+        "deliveryTime": 30,
+        "minDeliveryTime": 30,
+        "maxDeliveryTime": 30,
+        "slaString": "30 MINS",
+        "lastMileTravel": 1.100000023841858,
+        "slugs": {
+          "restaurant": "hotel-tuljabhavani-mundhwa-hadapsar",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Sr. No. 37, H.No. 699, Keshav Nagar, Mundhwa, 411036",
+        "locality": "Keshav Nagar,Magarpatta",
+        "parentId": 103142,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "1.1 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "147913",
+          "deliveryTime": 30,
+          "minDeliveryTime": 30,
+          "maxDeliveryTime": 30,
+          "lastMileTravel": 1.100000023841858,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "2.0",
+        "totalRatings": 20,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "23711",
+        "name": "McDonald's",
+        "uuid": "d351cc58-be2c-450e-991e-e4b63477518e",
+        "city": "6",
+        "area": "Hadapsar",
+        "totalRatingsString": "500+ ratings",
+        "cloudinaryImageId": "7bb739d7f6ae8b4ce8ed590765dffd2f",
+        "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+        "tags": [],
+        "costForTwo": 40000,
+        "costForTwoString": "₹400 FOR TWO",
+        "deliveryTime": 32,
+        "minDeliveryTime": 32,
+        "maxDeliveryTime": 32,
+        "slaString": "32 MINS",
+        "lastMileTravel": 3.799999952316284,
+        "slugs": {
+          "restaurant": "mc-donalds-magarpatta-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Seasons Mall, Unit no F22, Magarpatta, Hadapsar, Pune 411028\n",
+        "locality": "Magarpatta",
+        "parentId": 630,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "ribbon": [
+          {
+            "type": "PROMOTED"
+          }
+        ],
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "cid=5700115~p=13~eid=00000185-8b82-e026-0fa4-82c300bb0d76",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "3.7 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "23711",
+          "deliveryTime": 32,
+          "minDeliveryTime": 32,
+          "maxDeliveryTime": 32,
+          "lastMileTravel": 3.799999952316284,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": true,
+        "avgRating": "4.2",
+        "totalRatings": 500,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "170474",
+        "name": "Mandarin Oak- The Heavenly Chinese",
+        "uuid": "20ab1321-0d4a-422b-a532-17dd2da7c974",
+        "city": "6",
+        "area": "Mundhwa",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "f73a4f3de059966f925d587cca28e17c",
+        "cuisines": ["Chinese", "Oriental", "Pan-Asian", "Snacks"],
+        "tags": [],
+        "costForTwo": 35000,
+        "costForTwoString": "₹350 FOR TWO",
+        "deliveryTime": 29,
+        "minDeliveryTime": 29,
+        "maxDeliveryTime": 29,
+        "slaString": "29 MINS",
+        "lastMileTravel": 1.399999976158142,
+        "slugs": {
+          "restaurant": "mandarin-oak-keshav-nagar-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "Keshav Nagar Rd Shop 2, 3 & 5, Keshav Capital Society, near Sai Nagari Society, opposite Janseva Bank Bhaji Mandi, Keshav Nagar, Mundhwa, Pune, Maharashtra 411036",
+        "locality": "Keshav Nagar",
+        "parentId": 2320,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "Flat ₹125 off",
+          "shortDescriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹249",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹249 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "₹125 OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹249 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "1.3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "170474",
+          "deliveryTime": 29,
+          "minDeliveryTime": 29,
+          "maxDeliveryTime": 29,
+          "lastMileTravel": 1.399999976158142,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.1",
+        "totalRatings": 100,
+        "new": false
+      },
+      "subtype": "basic"
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "473832",
+        "name": "Itminaan Matka Biryani - Slow Cooked",
+        "uuid": "db26f567-44f7-4721-98e5-df008c628998",
+        "city": "6",
+        "area": "Magarpatta",
+        "totalRatingsString": "20+ ratings",
+        "cloudinaryImageId": "fk8ogiljgdhh64d2pvtg",
+        "cuisines": ["Biryani", "North Indian", "Mughlai"],
+        "tags": [],
+        "costForTwo": 25000,
+        "costForTwoString": "₹250 FOR TWO",
+        "deliveryTime": 29,
+        "minDeliveryTime": 29,
+        "maxDeliveryTime": 29,
+        "slaString": "29 MINS",
+        "lastMileTravel": 1.399999976158142,
+        "slugs": {
+          "restaurant": "itminaan-biryani-dum-pukht-keshav-capital-magarpatta",
+          "city": "pune"
+        },
+        "cityState": "6",
+        "address": "S.No.5/39, office No.101&102, Keshav Capital, Keshavnagar, Mundhwa, Pune-411036",
+        "locality": "Keshav Capital",
+        "parentId": 107673,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+          "header": "Flat ₹125 off",
+          "shortDescriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "₹125 OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "Flat ₹125 off on orders above ₹299 | Use code FLAT125",
+              "discountType": "Flat",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [],
+        "feeDetails": {
+          "fees": [],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [],
+          "textBased": [],
+          "textExtendedBadges": []
+        },
+        "lastMileTravelString": "1.3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "473832",
+          "deliveryTime": 29,
+          "minDeliveryTime": 29,
+          "maxDeliveryTime": 29,
+          "lastMileTravel": 1.399999976158142,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.0",
+        "totalRatings": 20,
+        "new": false
+      },
+      "subtype": "basic"
+    }
+  ]
+}
