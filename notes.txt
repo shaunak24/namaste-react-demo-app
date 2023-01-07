@@ -6,3 +6,9 @@ Types of components -
 
 - For any component, name starts with uppercase
 - Component Composition - using 1 one component inside other, haha!
+
+React Fragment
+- JSX can only have one parent
+- So instead of using <div> for having 3 parents, react gives us access to "React.Fragment"
+- Fragment is a component, like a empty tag
+- Instead of <React.Fragment> we can also write <>
