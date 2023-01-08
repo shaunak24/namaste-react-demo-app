@@ -1,3 +1,5 @@
+Deployed @ https://food-villa-app.netlify.app/
+
 Everything is a component in React!
 
 Types of components -
