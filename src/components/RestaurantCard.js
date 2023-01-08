@@ -1,3 +1,5 @@
+import { SWIGGY_IMAGE_CDN_URL } from '../constants';
+
 const RestaurantCard = ({
   name,
   cloudinaryImageId,
@@ -11,7 +13,7 @@ const RestaurantCard = ({
   return (
     <div className="card">
       <img
-        src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/${cloudinaryImageId}`}
+        src={`${SWIGGY_IMAGE_CDN_URL}${cloudinaryImageId}`}
         alt="Restaurant Logo"
       />
       <h2>{name.toUpperCase()}</h2>
