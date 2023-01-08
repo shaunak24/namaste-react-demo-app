@@ -38,3 +38,9 @@ Project Structure Patterns in React
   - profile, cart, payment, etc.
 - Grouping by file type
   - components, utils, redux, etc.
+
+What are Hooks?
+
+- Hooks are normal javascript functions which provide some functionality in React
+- Ex. useState hook, which is used to create local state variables in React
+- There is one-way data binding in React unlike other frameworks. This is helpful in identifying which element is modifying the state variable
