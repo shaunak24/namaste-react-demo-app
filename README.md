@@ -31,3 +31,10 @@ What is React Fibre?
 Why not to use index as key?
 
 - https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/
+
+Project Structure Patterns in React
+
+- Grouping by feature or routes
+  - profile, cart, payment, etc.
+- Grouping by file type
+  - components, utils, redux, etc.
