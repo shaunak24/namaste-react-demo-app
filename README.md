@@ -43,4 +43,5 @@ What are Hooks?
 
 - Hooks are normal javascript functions which provide some functionality in React
 - Ex. useState hook, which is used to create local state variables in React
+- Everytime we need to sync our variables with the UI, we need to use state variables
 - There is one-way data binding in React unlike other frameworks. This is helpful in identifying which element is modifying the state variable
