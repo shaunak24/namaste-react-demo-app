@@ -47,3 +47,14 @@ What are Hooks?
 - Ex. useState hook, which is used to create local state variables in React
 - Everytime we need to sync our variables with the UI, we need to use state variables
 - There is one-way data binding in React unlike other frameworks. This is helpful in identifying which element is modifying the state variable
+
+useEffect Hook
+
+- Two ways to load page
+  1. Call API -> render page (Not good for UX)
+  2. Render initial data -> Call API -> Update UI with new data (Good approach)
+- React provides useEffect hook to implement approach #2
+- Components re-render either when state changes or props change
+- useEffect + no dependency array = called after every re-render
+- useEffect + [] = called only after 1st render
+- useEffect + [searchText] = called after 1st render + called only when searchText changes after re-render
