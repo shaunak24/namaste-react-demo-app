@@ -1,10 +1,10 @@
 import RestaurantCard from './RestaurantCard';
-import restaurantsData from '../../resources/restaurants.json';
 import { useEffect, useState } from 'react';
 
 const RestaurantCardList = () => {
-  const [searchText, setSearchText] = useState();
-  const [restaurants, setRestaurants] = useState(restaurantsData.data);
+  const [searchText, setSearchText] = useState('');
+  const [filteredRestaurants, setFilteredRestaurants] = useState([]);
+  const [allRestaurants, setAllRestaurants] = useState([]);
 
   useEffect(() => {
     getRestaurants();
@@ -15,9 +15,12 @@ const RestaurantCardList = () => {
       'https://www.swiggy.com/dapi/restaurants/list/v5?lat=19&lng=72.8&page_type=DESKTOP_WEB_LISTING'
     );
     const json = await data.json();
-    console.log(json?.data.cards[2]?.data?.data?.cards);
-    setRestaurants(json?.data.cards[2]?.data?.data?.cards);
+    // console.log(json?.data.cards[2]?.data?.data?.cards);
+    setAllRestaurants(json?.data.cards[2]?.data?.data?.cards);
+    setFilteredRestaurants(json?.data.cards[2]?.data?.data?.cards);
   }
+
+  if (!allRestaurants) return null;
 
   return (
     <>
@@ -34,15 +37,15 @@ const RestaurantCardList = () => {
             className="search-btn"
             onClick={() => {
               if (!searchText) {
-                setRestaurants(restaurantsData.data);
+                setFilteredRestaurants(allRestaurants);
                 return;
               }
               // filter data (always on original list)
-              const data = restaurantsData.data.filter((res) =>
+              const data = allRestaurants.filter((res) =>
                 res.data.name.toUpperCase().includes(searchText.toUpperCase())
               );
               // update the state - restaurants
-              setRestaurants(data);
+              setFilteredRestaurants(data);
             }}
           >
             <i className="fa fa-search"></i>
@@ -50,9 +53,13 @@ const RestaurantCardList = () => {
         </div>
       </div>
       <div className="restaurant-list">
-        {restaurants.map((res) => (
-          <RestaurantCard {...res.data} key={res.data.id} />
-        ))}
+        {filteredRestaurants?.length === 0 ? (
+          <h1>No Restaurants Match your Filter!</h1>
+        ) : (
+          filteredRestaurants.map((res) => (
+            <RestaurantCard {...res.data} key={res.data.id} />
+          ))
+        )}
       </div>
     </>
   );

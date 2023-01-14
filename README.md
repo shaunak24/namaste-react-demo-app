@@ -58,3 +58,9 @@ useEffect Hook
 - useEffect + no dependency array = called after every re-render
 - useEffect + [] = called only after 1st render
 - useEffect + [searchText] = called after 1st render + called only when searchText changes after re-render
+
+What is Shimmer UI Design?
+
+- Showing UI elements with no data until API call is complete and data is fetched
+- Better UX as there is less drift between LOADING and DONE state
+- Use conditional rendering
