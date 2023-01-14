@@ -1,10 +1,23 @@
 import RestaurantCard from './RestaurantCard';
 import restaurantsData from '../../resources/restaurants.json';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const RestaurantCardList = () => {
   const [searchText, setSearchText] = useState();
   const [restaurants, setRestaurants] = useState(restaurantsData.data);
+
+  useEffect(() => {
+    getRestaurants();
+  }, []);
+
+  async function getRestaurants() {
+    const data = await fetch(
+      'https://www.swiggy.com/dapi/restaurants/list/v5?lat=19&lng=72.8&page_type=DESKTOP_WEB_LISTING'
+    );
+    const json = await data.json();
+    console.log(json?.data.cards[2]?.data?.data?.cards);
+    setRestaurants(json?.data.cards[2]?.data?.data?.cards);
+  }
 
   return (
     <>
