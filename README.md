@@ -64,3 +64,10 @@ What is Shimmer UI Design?
 - Showing UI elements with no data until API call is complete and data is fetched
 - Better UX as there is less drift between LOADING and DONE state
 - Use conditional rendering
+
+React Router
+
+- react-router-dom is used for routing
+- createBrowserRouter is the recommended type of router by react
+- It provides 'RouterProvider' component used to house various route components. It takes in createBrowserRouter value.
+- useRouteError is a hook provided by react-router-dom
