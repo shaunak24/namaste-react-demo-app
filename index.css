@@ -83,3 +83,10 @@
   top: 50%;
   left: 50%;
 }
+
+.shimmer-card {
+  width: 200px;
+  height: 200px;
+  background-color: lightgrey;
+  margin: 20px;
+}

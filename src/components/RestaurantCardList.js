@@ -1,5 +1,6 @@
 import RestaurantCard from './RestaurantCard';
 import { useEffect, useState } from 'react';
+import Shimmer from './Shimmer';
 
 const RestaurantCardList = () => {
   const [searchText, setSearchText] = useState('');
@@ -53,7 +54,9 @@ const RestaurantCardList = () => {
         </div>
       </div>
       <div className="restaurant-list">
-        {filteredRestaurants?.length === 0 ? (
+        {allRestaurants.length === 0 ? (
+          <Shimmer />
+        ) : filteredRestaurants?.length === 0 ? (
           <h1>No Restaurants Match your Filter!</h1>
         ) : (
           filteredRestaurants.map((res) => (
