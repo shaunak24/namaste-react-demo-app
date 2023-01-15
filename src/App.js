@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Body from './components/Body';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import About from './components/About';
 import Error from './components/Error';
+import Contact from './components/Contact';
 
 // old way
 // const heading = React.createElement(
@@ -34,7 +35,7 @@ const AppLayout = () => {
   return (
     <>
       <Header />
-      <Body />
+      <Outlet />
       <Footer />
     </>
   );
@@ -45,10 +46,20 @@ const appRouter = createBrowserRouter([
     path: '/',
     element: <AppLayout />,
     errorElement: <Error />,
-  },
-  {
-    path: '/about',
-    element: <About />,
+    children: [
+      {
+        path: '/about',
+        element: <About />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
+      },
+      {
+        path: '/',
+        element: <Body />,
+      },
+    ],
   },
 ]);
 

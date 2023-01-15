@@ -71,3 +71,5 @@ React Router
 - createBrowserRouter is the recommended type of router by react
 - It provides 'RouterProvider' component used to house various route components. It takes in createBrowserRouter value.
 - useRouteError is a hook provided by react-router-dom
+- Link component is used to implement client side routing. Client side routing does not require network calls to fetch new pages and avoids reload
+- Outlet component is used to create nested. It will render according to config, all the children will go into the outlet according to the route
