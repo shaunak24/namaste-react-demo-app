@@ -58,6 +58,7 @@ useEffect Hook
 - useEffect + no dependency array = called after every re-render
 - useEffect + [] = called only after 1st render
 - useEffect + [searchText] = called after 1st render + called only when searchText changes after re-render
+- we can return a function from useEffect. This function is called when we are unmounting the component
 
 What is Shimmer UI Design?
 
