@@ -8,6 +8,7 @@ import About from './components/About';
 import Error from './components/Error';
 import Contact from './components/Contact';
 import RestaurantMenu from './components/RestaurantMenu';
+import Profile from './components/Profile';
 
 // old way
 // const heading = React.createElement(
@@ -51,6 +52,12 @@ const appRouter = createBrowserRouter([
       {
         path: '/about',
         element: <About />,
+        children: [
+          {
+            path: 'profile',
+            element: <Profile />,
+          },
+        ],
       },
       {
         path: '/contact',

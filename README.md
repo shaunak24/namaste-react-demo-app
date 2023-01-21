@@ -73,3 +73,27 @@ React Router
 - useRouteError is a hook provided by react-router-dom
 - Link component is used to implement client side routing. Client side routing does not require network calls to fetch new pages and avoids reload
 - Outlet component is used to create nested. It will render according to config, all the children will go into the outlet according to the route
+
+Class Based Components
+
+- not used anymore but we should know for legacy purposes
+- should extend React.Component
+- we cannot create class based components without render method
+- we get access to props/state using this.props/this.state
+- we initialize state in constructor
+- update state using this.setState() [Note: Do not mutate state directly XX]
+- componentDidMount() is called after component is rendered (1st render)
+- Sequence = constructor -> render() -> componentDidMount()
+- Lifecycle diagram for more details - https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+  - There are 2 phases - render and commit phase
+  - In case of parent with multiple children, to avoid delays in rendering, react will batch render phase for all children
+- componentDidUpdate() is called after every re-render
+- componentWillUnmount() is called just before component is about to destroy/unmount
+
+Why do we write super(props) in contructor of class component?
+
+- Homework
+
+Why can we make componentDidMount() as async and not useEffect() as async?
+
+- Homework
