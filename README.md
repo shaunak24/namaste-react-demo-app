@@ -48,6 +48,7 @@ What are Hooks?
 - Everytime we need to sync our variables with the UI, we need to use state variables
 - There is one-way data binding in React unlike other frameworks. This is helpful in identifying which element is modifying the state variable
 - Difference between hook and functional component is that functional component needs to return JSX. No such restriction for hook
+- We can also create custom hooks. It lets us create state variables, use other hooks, etc. which is not possible by normal helper functions
 
 useEffect Hook
 
