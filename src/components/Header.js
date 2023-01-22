@@ -22,6 +22,9 @@ const Header = () => {
             <li>Contact</li>
           </Link>
           <li>Cart</li>
+          <Link to="/instamart">
+            <li>Instamart</li>
+          </Link>
         </ul>
       </div>
       <h3>{isOnline ? '✅ Online' : '🛑 Offline'}</h3>

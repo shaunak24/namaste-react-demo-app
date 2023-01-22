@@ -100,3 +100,11 @@ Why do we write super(props) in contructor of class component?
 Why can we make componentDidMount() as async and not useEffect() as async?
 
 - Homework
+
+Chunking/Code Splitting/Lazy Loading/Dynamic Bundling/On Demand Loading/Dynamic Import
+
+- used to make logical bundles of app in case of large applications
+- build different bundles depending on use cases. Ex. makemytrip - only build train bundle for some users, and not flights, bus, hotels, etc
+- we wrap other bundles under React.Suspense component to avoid error as react tries to render component even before bundle file is loaded
+  - react will wait for Promise (returned by lazy import) to resolve and then render new component
+  - fallback prop is callback used to show UI until bundle is fetched
