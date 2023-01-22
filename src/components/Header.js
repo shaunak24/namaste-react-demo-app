@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import Title from './Title';
 import { Link } from 'react-router-dom';
+import useOnline from '../utils/useOnline';
 
 const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const isOnline = useOnline();
 
   return (
     <div className="header">
@@ -22,6 +24,7 @@ const Header = () => {
           <li>Cart</li>
         </ul>
       </div>
+      <h3>{isOnline ? '✅ Online' : '🛑 Offline'}</h3>
       {isLoggedIn ? (
         <button onClick={() => setIsLoggedIn(false)}>Logout</button>
       ) : (
