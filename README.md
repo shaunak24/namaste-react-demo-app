@@ -47,6 +47,7 @@ What are Hooks?
 - Ex. useState hook, which is used to create local state variables in React
 - Everytime we need to sync our variables with the UI, we need to use state variables
 - There is one-way data binding in React unlike other frameworks. This is helpful in identifying which element is modifying the state variable
+- Difference between hook and functional component is that functional component needs to return JSX. No such restriction for hook
 
 useEffect Hook
 
