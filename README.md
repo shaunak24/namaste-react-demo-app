@@ -108,3 +108,27 @@ Chunking/Code Splitting/Lazy Loading/Dynamic Bundling/On Demand Loading/Dynamic 
 - we wrap other bundles under React.Suspense component to avoid error as react tries to render component even before bundle file is loaded
   - react will wait for Promise (returned by lazy import) to resolve and then render new component
   - fallback prop is callback used to show UI until bundle is fetched
+
+We can style Components using -
+
+- Native CSS
+- Inline CSS
+- SCSS
+- Component Libraries
+- Styled Components
+- Tailwind CSS
+
+UI Component Libraries
+
+- Material UI
+- Chakra UI
+- Base UI
+- Ant UI
+
+Tailwind CSS
+
+- Pros
+  - CSS on the go (in same file)
+  - Reusability
+  - Less bundle size
+  - Flexible (Customization possible)
