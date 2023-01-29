@@ -132,3 +132,8 @@ Tailwind CSS
   - Reusability
   - Less bundle size
   - Flexible (Customization possible)
+  - No duplicate CSS
+  - Easy to debug
+- Cons
+  - Initial learning curve
+  - Readability (too much classes)

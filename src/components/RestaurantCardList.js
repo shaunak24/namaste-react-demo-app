@@ -31,8 +31,8 @@ const RestaurantCardList = () => {
 
   return (
     <>
-      <div className="search-wrap">
-        <div className="search-container">
+      <div className="p-5 bg-cyan-200 my-5">
+        <div>
           <input
             className="search-input"
             type="text"
@@ -41,7 +41,7 @@ const RestaurantCardList = () => {
             onChange={(e) => setSearchText(e.target.value)}
           />
           <button
-            className="search-btn"
+            className="p-2 m-2 bg-black hover:bg-gray-600 text-white rounded-md"
             onClick={() => {
               if (!searchText) {
                 setFilteredRestaurants(allRestaurants);
@@ -59,7 +59,7 @@ const RestaurantCardList = () => {
           </button>
         </div>
       </div>
-      <div className="restaurant-list">
+      <div className="flex flex-wrap">
         {allRestaurants.length === 0 ? (
           <Shimmer />
         ) : filteredRestaurants?.length === 0 ? (
