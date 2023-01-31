@@ -135,5 +135,10 @@ Tailwind CSS
   - No duplicate CSS
   - Easy to debug
 - Cons
+
   - Initial learning curve
   - Readability (too much classes)
+
+  Prop Drilling
+
+  - Passing props from parent to children resulting in a long chain
