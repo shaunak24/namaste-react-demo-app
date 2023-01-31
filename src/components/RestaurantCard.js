@@ -19,7 +19,7 @@ const RestaurantCard = ({
   }
 
   return (
-    <div className="w-56 h-72 m-2 p-2 shadow-lg bg-cyan-200">
+    <div className="w-56 h-72 m-2 p-2 shadow-lg bg-cyan-200 rounded-lg">
       <img
         src={`${SWIGGY_IMAGE_CDN_URL}${cloudinaryImageId}`}
         alt="Restaurant Logo"
