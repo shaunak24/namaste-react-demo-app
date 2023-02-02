@@ -142,3 +142,9 @@ Tailwind CSS
   Prop Drilling
 
   - Passing props from parent to children resulting in a long chain
+  - Publisher-Subscriber pattern is used to pass props from children to parent
+
+  Lifting the state up
+
+  - Defining the state in parent component so as to have control over all the children
+  - The need arises as two children cannot share their state
