@@ -135,16 +135,21 @@ Tailwind CSS
   - No duplicate CSS
   - Easy to debug
 - Cons
-
   - Initial learning curve
   - Readability (too much classes)
 
-  Prop Drilling
+Prop Drilling
 
-  - Passing props from parent to children resulting in a long chain
-  - Publisher-Subscriber pattern is used to pass props from children to parent
+- Passing props from parent to children resulting in a long chain
+- Publisher-Subscriber pattern is used to pass props from children to parent
 
-  Lifting the state up
+Lifting the state up
 
-  - Defining the state in parent component so as to have control over all the children
-  - The need arises as two children cannot share their state
+- Defining the state in parent component so as to have control over all the children
+- The need arises as two children cannot share their state
+
+React Context
+
+- Useful in case we want data to be accessible throughout our app
+- Unlike state or props, react context is not tied to any component
+- Redux, mobex, NgRx, etc are all state management libraries. Context is provided by React
