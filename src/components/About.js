@@ -15,7 +15,6 @@ export class About extends Component {
     return (
       <div>
         <h1>About Us Page</h1>
-
         <UserContext.Consumer>
           {({ user }) => <p>Hello From {user.name}!</p>}
         </UserContext.Consumer>
