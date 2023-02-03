@@ -1,14 +1,16 @@
 import RestaurantCard from './RestaurantCard';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Shimmer from './Shimmer';
 import { Link } from 'react-router-dom';
 import useOnline from '../utils/useOnline';
+import UserContext from '../utils/UserContext';
 
 const RestaurantCardList = () => {
   const [searchText, setSearchText] = useState('');
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [allRestaurants, setAllRestaurants] = useState([]);
   const isOnline = useOnline();
+  const { user, setUser } = useContext(UserContext);
 
   useEffect(() => {
     getRestaurants();
@@ -57,6 +59,15 @@ const RestaurantCardList = () => {
           >
             <i className="fa fa-search"></i>
           </button>
+          {false && (
+            <input
+              type="text"
+              value={user.name}
+              onChange={(e) =>
+                setUser({ name: e.target.value, email: 'new@gmail.com' })
+              }
+            />
+          )}
         </div>
       </div>
       <div className="flex flex-wrap">

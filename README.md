@@ -153,3 +153,5 @@ React Context
 - Useful in case we want data to be accessible throughout our app
 - Unlike state or props, react context is not tied to any component
 - Redux, mobex, NgRx, etc are all state management libraries. Context is provided by React
+- In class based components, we use \<UserContext.Consumer /> to make use of context
+- Similarly we user \<UserContext.Provider /> to update the context
