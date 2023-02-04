@@ -13,6 +13,7 @@ import Shimmer from './components/Shimmer';
 import UserContext from './utils/UserContext';
 import { Provider } from 'react-redux';
 import store from './utils/store';
+import Cart from './components/Cart';
 
 // old way
 // const heading = React.createElement(
@@ -92,6 +93,10 @@ const appRouter = createBrowserRouter([
             <Instamart />
           </Suspense>
         ),
+      },
+      {
+        path: '/cart',
+        element: <Cart />,
       },
     ],
   },

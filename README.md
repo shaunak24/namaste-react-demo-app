@@ -165,6 +165,7 @@ Redux
 - For logical separation we create slices of our redux store
 - To update store = dispatch an action -> calls a #reducer function -> modify the slice in redux store
 - To read from store, we need to call #selector. Selector is hook (useSelector)
+- Always better to subscribe to slice/part of slice using useSelector rather than subscribing to whole store. This can lead to major performance issue
 - One more jargon - When we use selector, it is known as subscribing to the store
 - @reduxjs/toolkit - Core funxtions of redux (creating/modifying the slice, store, etc)
 - react-redux - bridge between react and redux
