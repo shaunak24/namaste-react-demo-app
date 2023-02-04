@@ -7,8 +7,10 @@ const RestaurantCard = ({
   cuisines,
   lastMileTravel,
   costForTwoString,
+  costForTwoMsg,
   address,
   avgRating,
+  sla,
 }) => {
   const ratingBackgroundStyle = getRatingBackgroundStyle(avgRating);
 
@@ -34,9 +36,13 @@ const RestaurantCard = ({
           } ⭐️`}</p>
         </div>
         <p>|</p>
-        <p className="px-2">{`${Math.round(lastMileTravel)} Kms`}</p>
+        <p className="px-2">
+          {lastMileTravel
+            ? `${Math.round(lastMileTravel)} Kms`
+            : `${Math.round(sla?.lastMileTravel)} Kms`}
+        </p>
         <p>|</p>
-        <p className="px-2">{costForTwoString}</p>
+        <p className="px-2">{costForTwoString || costForTwoMsg}</p>
       </div>
       {/* <p>{`📭 ${address}`}</p> */}
     </div>
