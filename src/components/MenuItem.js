@@ -11,8 +11,6 @@ const MenuItem = ({ item }) => {
     dispatch(addItem(item));
   };
 
-  console.log(item);
-
   return (
     <>
       <div className="flex border bg-cyan-200 m-2 rounded-lg shadow-lg">
@@ -27,7 +25,17 @@ const MenuItem = ({ item }) => {
           <p className="text-sm italic font-semibold">
             ₹ {Math.round(price / 100)}
           </p>
-          <p>{attributes?.vegClassifier}</p>
+          {attributes?.vegClassifier === 'NONVEG' ? (
+            <img
+              className="w-8 h-8"
+              src="https://img.icons8.com/material/48/FA5252/vegetarian-food-symbol.png"
+            />
+          ) : (
+            <img
+              className="w-8 h-8"
+              src="https://img.icons8.com/color/48/null/vegetarian-food-symbol.png"
+            />
+          )}
         </div>
       </div>
       <button

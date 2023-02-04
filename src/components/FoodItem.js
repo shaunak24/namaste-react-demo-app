@@ -21,7 +21,7 @@ const FoodItem = ({ name, category, cloudinaryImageId, price }) => {
           : name.toUpperCase()}
       </h4>
       <h4 className="text-xs">{category}</h4>
-      <h4 className="text-xs my-2 font-bold">₹ {price}</h4>
+      <h4 className="text-xs my-2 font-bold">₹ {Math.round(price / 100)}</h4>
     </div>
   );
 };
