@@ -1,4 +1,7 @@
-import { SWIGGY_IMAGE_CDN_URL } from '../constants';
+import {
+  IMAGE_NOT_AVAILABLE_THUMBNAIL,
+  SWIGGY_IMAGE_CDN_URL,
+} from '../constants';
 
 const FoodItem = ({ name, category, cloudinaryImageId, price }) => {
   return (
@@ -6,9 +9,9 @@ const FoodItem = ({ name, category, cloudinaryImageId, price }) => {
       <img
         className="w-56 h-3/5 shadow-lg rounded-lg mb-2"
         src={
-          cloudinaryImageId
+          cloudinaryImageId !== ''
             ? `${SWIGGY_IMAGE_CDN_URL}${cloudinaryImageId}`
-            : 'https://westsiderc.org/wp-content/uploads/2019/08/Image-Not-Available.png'
+            : IMAGE_NOT_AVAILABLE_THUMBNAIL
         }
         alt="Menu Item Image"
       />

@@ -6,3 +6,6 @@ export const SWIGGY_FETCH_RESTAURANT_MENU =
 
 export const SAMPLE_DESCRIPTION_INSTAMART_SECTION =
   'Praesent magna mi, auctor sed sagittis accumsan, tempor a mi. Maecenas semper nulla pulvinar enim vehicula, quis facilisis nisl sagittis. Donec eleifend nisi eget mauris bibendum malesuada. Donec at ultricies ante. Proin in arcu vel lectus dignissim consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tempus libero luctus, scelerisque risus quis, fermentum diam. Sed nisl enim, finibus non venenaat ipsum. Ut condimentum elit sapien, sit amet lobortis turpis pharetra nec. Cras eleifend felis at quam tempus congue. Sed at maximus risus. Interdum et malesuada fames ac ante ipsum primis in faucibus.';
+
+export const IMAGE_NOT_AVAILABLE_THUMBNAIL =
+  'https://westsiderc.org/wp-content/uploads/2019/08/Image-Not-Available.png';
