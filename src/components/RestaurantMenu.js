@@ -3,12 +3,19 @@ import { useParams } from 'react-router-dom';
 import Shimmer from './Shimmer';
 import { SWIGGY_IMAGE_CDN_URL } from '../constants';
 import useRestaurant from '../utils/useRestaurant';
+import { addItem } from '../utils/cartSlice';
+import { useDispatch } from 'react-redux';
 
 const RestaurantMenu = () => {
   const { id: resId } = useParams();
   const restaurant = useRestaurant(resId);
+  const dispatch = useDispatch();
 
   if (!restaurant) return <Shimmer />;
+
+  const addFoodItem = (item) => {
+    dispatch(addItem(item));
+  };
 
   const {
     name,
@@ -21,7 +28,7 @@ const RestaurantMenu = () => {
   } = restaurant;
 
   return (
-    <div className="restaurant-info-detail">
+    <div className="flex">
       <img
         src={`${SWIGGY_IMAGE_CDN_URL}${cloudinaryImageId}`}
         alt="Restaurant Logo"
@@ -37,12 +44,19 @@ const RestaurantMenu = () => {
       {avgRating > 0 && <h3>{avgRating} ⭐️</h3>}
       <ul>
         {Object.values(restaurant?.menu?.items).map((item) => (
-          <li key={item.id}>
-            <p>
-              <strong>{item?.name}</strong>{' '}
-              {item.description && `- ${item.description}`}
-            </p>
-          </li>
+          <div className="flex" key={item.id}>
+            <li>
+              <p>
+                <strong>{item?.name}</strong>{' '}
+                <button
+                  className="m-2 bg-cyan-200 rounded-sm"
+                  onClick={() => addFoodItem(item)}
+                >
+                  <i className="fa fa-plus"></i>
+                </button>
+              </p>
+            </li>
+          </div>
         ))}
       </ul>
     </div>

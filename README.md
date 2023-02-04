@@ -140,6 +140,7 @@ Tailwind CSS
 
 Prop Drilling
 
+- There are 2 layers in our web application - UI and Data
 - Passing props from parent to children resulting in a long chain
 - Publisher-Subscriber pattern is used to pass props from children to parent
 
@@ -155,3 +156,23 @@ React Context
 - Redux, mobex, NgRx, etc are all state management libraries. Context is provided by React
 - In class based components, we use \<UserContext.Consumer /> to make use of context
 - Similarly we user \<UserContext.Provider /> to update the context
+
+Redux
+
+- Data management library
+- Redux toolkit provides a standard/better way to write Redux code
+- At the end of the day, redux store is nothing but a big OBJECT :)
+- For logical separation we create slices of our redux store
+- To update store = dispatch an action -> calls a #reducer function -> modify the slice in redux store
+- To read from store, we need to call #selector. Selector is hook (useSelector)
+- One more jargon - When we use selector, it is known as subscribing to the store
+- @reduxjs/toolkit - Core funxtions of redux (creating/modifying the slice, store, etc)
+- react-redux - bridge between react and redux
+- "Provider" component is used to provide the redux store to whole app
+- Steps
+  - create the store using "createStore"
+  - Provide store to app (\<Provider />)
+  - create slice using "createSlice"
+  - define reducers inside slice
+  - export actions, reducer from slice
+  - add slice into store
