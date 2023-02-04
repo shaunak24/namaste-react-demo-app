@@ -21,8 +21,8 @@ const Cart = () => {
         </button>
       )}
       <div className="flex flex-wrap">
-        {cartItems.map((item) => (
-          <FoodItem key={item.id} {...item} />
+        {Object.values(cartItems).map((item) => (
+          <FoodItem key={item.id} item={item} />
         ))}
       </div>
     </div>

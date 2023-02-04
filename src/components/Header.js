@@ -29,7 +29,7 @@ const Header = () => {
             <li className="px-2">Instamart</li>
           </Link>
           <Link to="/cart">
-            <li className="px-2">Cart - {cartItems.length}</li>
+            <li className="px-2">Cart - {Object.keys(cartItems).length}</li>
           </Link>
         </ul>
       </div>

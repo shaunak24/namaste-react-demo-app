@@ -1,14 +1,20 @@
 import React from 'react';
-import { addItem } from '../utils/cartSlice';
-import { useDispatch } from 'react-redux';
+import { addItem, removeItem } from '../utils/cartSlice';
+import { useDispatch, useSelector } from 'react-redux';
 import { SWIGGY_IMAGE_CDN_URL } from '../constants';
 
 const MenuItem = ({ item }) => {
-  const { name, description, price, cloudinaryImageId, attributes } = item;
+  const { id, name, description, price, cloudinaryImageId, attributes } = item;
   const dispatch = useDispatch();
+  const cartItems = useSelector((store) => store.cart.items);
+  const cartItemCount = cartItems[id] ? cartItems[id].count : 0;
 
   const addFoodItem = (item) => {
     dispatch(addItem(item));
+  };
+
+  const removeFoodItem = (id) => {
+    dispatch(removeItem(id));
   };
 
   return (
@@ -17,7 +23,7 @@ const MenuItem = ({ item }) => {
         <img
           className="m-2 w-24 h-24"
           src={`${SWIGGY_IMAGE_CDN_URL}${cloudinaryImageId}`}
-          alt="Restaurant Logo"
+          alt="Menu Item Logo"
         />
         <div>
           <h3 className="font-bold text-md">{name}</h3>
@@ -38,18 +44,23 @@ const MenuItem = ({ item }) => {
           )}
         </div>
       </div>
-      <button
-        className="m-2 bg-green-500 rounded-full"
-        onClick={() => addFoodItem(item)}
-      >
-        <i className="fa fa-plus"></i>
-      </button>
-      <button
-        className="m-2 bg-red-500 rounded-full"
-        onClick={() => addFoodItem(item)}
-      >
-        <i className="fa fa-minus"></i>
-      </button>
+      <div className="flex">
+        <button
+          className="m-2 bg-green-500 rounded-full"
+          onClick={() => addFoodItem(item)}
+        >
+          <i className="fa fa-plus"></i>
+        </button>
+        <p className="w-6 h-6 text-center rounded-full bg-yellow-400">
+          {cartItemCount}
+        </p>
+        <button
+          className="m-2 bg-red-500 rounded-full"
+          onClick={() => removeFoodItem(id)}
+        >
+          <i className="fa fa-minus"></i>
+        </button>
+      </div>
     </>
   );
 };
