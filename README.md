@@ -177,3 +177,4 @@ Redux
   - define reducers inside slice
   - export actions, reducer from slice
   - add slice into store
+- Read about: Middleware, Thunk, RTK Query.

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearCart } from '../utils/cartSlice';
+import FoodItem from './FoodItem';
 
 const Cart = () => {
   const cartItems = useSelector((store) => store.cart.items);
@@ -19,11 +20,11 @@ const Cart = () => {
           <i className="fa fa-minus" />
         </button>
       )}
-      <ul>
+      <div className="flex flex-wrap">
         {cartItems.map((item) => (
-          <li key={item.id}>{item.name}</li>
+          <FoodItem key={item.id} {...item} />
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
