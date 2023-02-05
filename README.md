@@ -182,3 +182,16 @@ Redux
 React Testing Library
 
 - JS testing framework, built on top of jest
+- Types of Testing
+  - Manual Tetsing
+  - Automation Testing (Ex. Selenium)
+  - E2E Testing - Covers entire user journey (Ex. Cypress)
+    - Achieved using headless browser
+  - Unit Testing
+    - Job of developers
+    - Breaking the functionality into different pieces and testing them separately
+  - Integration Testing
+- Install @testing-library/react and jest
+- Configure jest (npx jest --init)
+- Install jest-environment-jsdom
+- Create test file
