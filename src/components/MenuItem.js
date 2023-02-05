@@ -1,7 +1,10 @@
 import React from 'react';
 import { addItem, removeItem } from '../utils/cartSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { SWIGGY_IMAGE_CDN_URL } from '../constants';
+import {
+  IMAGE_NOT_AVAILABLE_THUMBNAIL,
+  SWIGGY_IMAGE_CDN_URL,
+} from '../constants';
 
 const MenuItem = ({ item }) => {
   const { id, name, description, price, cloudinaryImageId, attributes } = item;
@@ -22,7 +25,11 @@ const MenuItem = ({ item }) => {
       <div className="flex border bg-cyan-200 m-2 rounded-lg shadow-lg">
         <img
           className="m-2 w-24 h-24"
-          src={`${SWIGGY_IMAGE_CDN_URL}${cloudinaryImageId}`}
+          src={
+            cloudinaryImageId
+              ? `${SWIGGY_IMAGE_CDN_URL}${cloudinaryImageId}`
+              : IMAGE_NOT_AVAILABLE_THUMBNAIL
+          }
           alt="Menu Item Logo"
         />
         <div>

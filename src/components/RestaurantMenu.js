@@ -12,9 +12,6 @@ const RestaurantMenu = () => {
 
   if (!restaurant) return <Shimmer />;
 
-  console.log('Restaurant: ', restaurant);
-  console.log(restaurant?.menu?.items);
-
   return (
     <div className="m-2 flex">
       <RestaurantCard {...restaurant} />

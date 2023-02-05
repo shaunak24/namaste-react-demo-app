@@ -178,3 +178,7 @@ Redux
   - export actions, reducer from slice
   - add slice into store
 - Read about: Middleware, Thunk, RTK Query.
+
+React Testing Library
+
+- JS testing framework, built on top of jest
