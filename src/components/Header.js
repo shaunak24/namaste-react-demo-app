@@ -29,11 +29,13 @@ const Header = () => {
             <li className="px-2">Instamart</li>
           </Link>
           <Link to="/cart">
-            <li className="px-2">Cart - {Object.keys(cartItems).length}</li>
+            <li data-testid="cart" className="px-2">
+              Cart - {Object.keys(cartItems).length}
+            </li>
           </Link>
         </ul>
       </div>
-      <h3 className="font-bold text-lg p-10">
+      <h3 data-testid="online-status" className="font-bold text-lg p-10">
         Hi, {user.name} {isOnline ? '✅' : '🛑'}
       </h3>
       {isLoggedIn ? (

@@ -196,3 +196,7 @@ React Testing Library
 - Install jest-environment-jsdom
 - Create test file
 - To resolve error for cannot import inside module - Configure babel for jest (npm install --save-dev babel-jest @babel/core @babel/preset-env)
+- Configure jest for understanding jsx ["@babel/preset-react", { "runtime": "automatic" }]
+- Update moduleNameMapper for images
+- Provide store to components, if needed
+- Provide StaticRouter as BrowserRouter does not work in jest container
