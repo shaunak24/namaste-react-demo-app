@@ -195,3 +195,4 @@ React Testing Library
 - Configure jest (npx jest --init)
 - Install jest-environment-jsdom
 - Create test file
+- To resolve error for cannot import inside module - Configure babel for jest (npm install --save-dev babel-jest @babel/core @babel/preset-env)
