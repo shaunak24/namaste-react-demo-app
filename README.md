@@ -200,3 +200,4 @@ React Testing Library
 - Update moduleNameMapper for images
 - Provide store to components, if needed
 - Provide StaticRouter as BrowserRouter does not work in jest container
+- Dummy function given to us by jest - jest.fn()
